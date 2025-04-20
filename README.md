@@ -62,6 +62,10 @@ Seamless and professional delivery
 👉 Portfolio templates for each tech stack are hosted at:
 autopitch-tech-portfolios
 
+![AutoPitchWebsite](https://github.com/user-attachments/assets/ba52ef99-0be6-48c4-ab8c-e1e8ab3b1bce)
+
+
+
 📍 Purpose
 
 To help small teams and individual freelancers pitch smarter, faster, and more professionally—without wasting time building decks or repeating explanations. AutoPitch brings AI-powered intelligence to a very real, day-to-day business problem.
