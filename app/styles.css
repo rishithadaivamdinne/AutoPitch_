@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(to right, #0d0d0d, #1a1a1a);
+    color: #f2f2f2;
+    transition: background 1s ease;
+}
+
+.main {
+    background-color: transparent;
+    padding: 2rem;
+}
+
+.app-header h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 0.3rem;
+    animation: bounce 2s infinite;
+    background: linear-gradient(to right, #ff4ecd, #4c8bf5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.app-header h3 {
+    font-size: 1.8rem;
+    color: #bbbbbb;
+    margin-bottom: 0.8rem;
+}
+
+.app-header p {
+    font-size: 1rem;
+    color: #aaaaaa;
+    max-width: 700px;
+    margin-bottom: 2rem;
+}
+
+.stTextInput > div > div > input {
+    font-size: 16px;
+    padding: 0.6rem;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #666;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #4c8bf5;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.stTextInput > div > div > input:focus {
+    box-shadow: 0 0 20px #ff4ecd;
+}
+
+.stButton > button {
+    background-color: #4c8bf5;
+    color: white;
+    font-size: 16px;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #000000;
+    transform: scale(1.05);
+}
+
+.email-box {
+    background-color: #1a1a1a;
+    border-left: 5px solid #4c8bf5;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    font-family: monospace;
+    color: #f2f2f2;
+}
+
+.email-box a {
+    color: #66ccff !important;
+    text-decoration: underline;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
